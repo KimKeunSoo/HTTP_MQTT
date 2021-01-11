@@ -1,0 +1,13 @@
+{
+    "broker": {
+        "ip": "192.168.50.120",
+        "port": 1883
+      },
+    "server":{
+        "ip": "localhost",
+        "port" : 8000
+    },
+    "message":"1234",
+    "topic_server": "SERVER",
+    "topic_client": "CLIENT"
+}

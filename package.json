@@ -1,0 +1,14 @@
+{
+  "name": "http_node_module",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mqtt": "^4.2.6"
+  }
+}
