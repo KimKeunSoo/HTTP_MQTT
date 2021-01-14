@@ -5,7 +5,7 @@ let count = 1;
 let initialized = false;
 var startTime, endTime;
 let sumTime = 0;
-let MAX = 5;
+let MAX = 10;
 
 function requestMessage(jsonData){
     init(jsonData)

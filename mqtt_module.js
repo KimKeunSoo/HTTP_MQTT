@@ -4,7 +4,7 @@ const { exit } = require("process");
 let initialized = false
 let count = 1;
 let sumTime = 0;
-let MAX = 5;
+let MAX = 10;
 var startTime
 function connectSubscribe(client, jsonData, topic){
     client.on("connect", () => {
