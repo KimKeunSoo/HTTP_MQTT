@@ -8,6 +8,7 @@
         "port" : 8000
     },
     "message":"1234",
+    "file" : "testFolder/1KB.bin",
     "topic_server": "SERVER",
     "topic_client": "CLIENT"
 }

@@ -8,5 +8,5 @@ const jsonData = JSON.parse(jsonFile);
 var client = mqtt.connect(`mqtt://${jsonData.broker.ip}:${jsonData.broker.port}`);
 
 mqtt_module.connectSubscribe(client, jsonData, jsonData.topic_client);
-mqtt_module.response(client, jsonData);
+mqtt_module.responseFile(client, jsonData);
 
