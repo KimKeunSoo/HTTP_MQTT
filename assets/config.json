@@ -1,10 +1,10 @@
 {
     "broker": {
-        "ip": "192.168.50.120",
+        "ip": "cloud.godopu.net",
         "port": 1883
       },
     "server":{
-        "ip": "localhost",
+        "ip": "pulab.godupu.net",
         "port" : 8000
     },
     "message":"1234",
